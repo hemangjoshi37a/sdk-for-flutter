@@ -6,7 +6,7 @@ repository: https://github.com/appwrite/sdk-for-flutter
 issue_tracker: https://github.com/appwrite/sdk-generator/issues
 documentation: https://appwrite.io/support
 environment:
-  sdk: '>=2.17.0 <3.0.0'
+  sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -18,7 +18,9 @@ dependencies:
   package_info_plus: ^1.4.3+1
   path_provider: ^2.0.11
   web_socket_channel: ^2.2.0
-
+  connectivity_plus: ^2.3.9
+  path: ^1.8.2
+  sembast: ^3.3.1
 
 dev_dependencies:
   flutter_lints: ^2.0.1
